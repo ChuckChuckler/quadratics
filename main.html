@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Doto:wght@100..900&family=Itim&family=Rajdhani:wght@300;400;500;600;700&family=Rubik+Mono+One&family=Sedan+SC&family=Sedan:ital@0;1&family=Silkscreen:wght@400;700&family=Tiny5&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Doto:wght@100..900&family=Itim&family=Rajdhani:wght@300;400;500;600;700&family=Rubik+Mono+One&family=Sedan+SC&family=Sedan:ital@0;1&family=Silkscreen:wght@400;700&family=Tiny5&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Quadratics</title>
+</head>
+<body>
+    <div class="titleContainer">
+        <h1>Quadratics</h1>
+        <button onclick="factoring()">Factoring</button>
+        <button onclick="radicals()">Radicals</button>
+        <button onclick="completingSquares()">Completing the Square</button>
+    </div>
+    <br>
+    <div class="container">
+        <h2 id="question"></h2>
+        <button class="show" id="show" onclick="show()">Show Solutions + Steps</button>
+        <div id="solutions" class="solutions">
+            <p id="steps"></p>
+            <h3 id="solution"></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
