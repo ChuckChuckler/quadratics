@@ -1,5 +1,5 @@
 ## What is it?
-Quadratics is just a small website I made to help me study quadratic equations for a quiz I have this coming Wednesday.
+Quadratics is just a small website I made to help me study quadratic equations for a quiz I have this coming Wednesday. All the math and the step-by-step solutions were powered by raw Javascript, no APIS or AI used. I just wanted to challenge myself and study a little bit in the process.
 
 ## How to use it?
 Just click one of the three buttons on the page.
